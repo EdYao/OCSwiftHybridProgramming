@@ -45,6 +45,6 @@ class NewViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        print("%@",self.parentVC)
+        print("\(self.parentVC)")
     }
 }
